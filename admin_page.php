@@ -21,6 +21,7 @@ if(!isset($_SESSION['email'])){
         <h1>Welocme,<span><?=$_SESSION['name']; ?></span></h1>
         <p>This is an <span>admin </span> page</p>
         <button onclick="window.location.href='logout.php'">Logout</button>
+        <!-- <button onclick="window.location.replace('logout.php')">logout</button> -->
     </div>
 
     
